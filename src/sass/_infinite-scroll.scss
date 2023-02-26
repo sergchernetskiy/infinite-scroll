@@ -1,3 +1,17 @@
+.banner {
+  margin-bottom: 40px;
+  border: 10px solid #ffffff;
+}
+
+.banner__img {
+  width: 100%;
+}
+
+.banner__img.appear {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
